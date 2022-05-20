@@ -1,0 +1,170 @@
+h1 {
+    font-family: 'Montserrat';
+     font-size: 3rem;
+     line-height: 1.5;
+     font-weight: 500;
+     color: #fff;
+  }
+h2{
+   font-size: 1.5rem;
+   line-height: 1.5;
+   font-weight: 500;
+}
+p{
+  font-weight: 300;
+}
+a, a:hover {
+   text-decoration:none;
+   color: inherit;
+}
+hr{
+  width:15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* html, body { background: #ffffff; height: 100%; overflow-x: hidden; position: relative; } */
+  /* ....................id........................ */
+  #title-content{
+    width: 100vw;
+  }
+  /* .................selectors.................... */
+  /* .row{
+    margin-right: 0;
+  } */
+  /* ..............navbar...................... */
+  .navbar{
+      padding-bottom: 5rem;
+  }
+  .navbar-container{
+    padding-left: 0;
+  }
+  .navbar-brand{
+    font-size: 1.75rem;
+  }
+  .nav-link{
+    font-size: 1rem;
+  }
+/* .................head section ......................*/
+.head-section{
+  /* background-color: #363636; */
+  height: 100vh;
+
+}
+.head-name{
+  padding-bottom: 5rem;
+}
+.name-break{
+  display: none;
+}
+/* ...................media query............... */
+@media (min-width:1440px){
+  .head-section{
+    padding: 3% 15%;
+  }
+  .navbar{
+    padding-bottom: 10rem;
+  }
+  .head-name{
+    padding-bottom: 2.5rem;
+  }
+  .name-break{
+    display: flex;
+  }
+  .carousel-inner{
+    margin-top: 115px;
+  }
+}
+/* ............containers.............. */
+.second-container,.third-container,.fourth-container,.fifth-container,.sixth-container{
+  height: 100vh;
+  padding: 15% 15%;
+}
+/* .....first cntainer elements....... */
+.tiwar-hero-img{
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+.hero-con,.clan-con,.pet-con,.forum-con,.battle-con{
+  padding-bottom: 6rem;
+}
+/* ....second container elements..... */
+.clan-img,.tiwar-pet,.tiwar-forum,.tiwar-battle{
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+/* .............media query mobile............. */
+@media (max-width:600px){
+.second-container,.third-container, .fourth-container, .fifth-container,.sixth-container{
+  padding-top: 9.35rem;
+}
+.hero-img-container{
+  padding-left: 0;
+}
+/* .c-icons{
+  margin-left: 15%;
+} */
+}
+/* .........slide in code............. */
+/* .slide-container{
+  width:100%;
+  overflow:hidden;
+  animation-name: slide-in;
+  animation-duration: 1.25s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+@keyframes slide-in {
+  from{
+    margin-left: -100%;
+    width: 300%;
+  }
+  to{
+    margin-left: 0;
+    width:100%;
+  } */
+/* } */
+/* .........pop-up code............... */
+/* .pop-container{
+  animation-name: pop-up;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+@keyframes pop-up {
+0% { opacity: 0; transform: scale(0.5); }
+100% { opacity: 1; transform: scale(1); }
+} */
+.comment-slides{
+  text-align: center;
+  padding: 3% 17%;
+  height: 50vh;
+}
+/* .............footer section......... */
+.footer-section{
+  height: 50vh;
+}
+.footer-container{
+   padding-top: 9.375rem;
+}
+.icon--links, .dev--name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.c-icons{
+  margin-left: 5%;
+}
+.buttonss{
+  margin-right: 1%;
+}
+@media(max-width:600px){
+  .c-icons{
+    margin-left: 6%;
+  }
+  .carousel-inner{
+    margin-top: 30px;
+  }
+}
